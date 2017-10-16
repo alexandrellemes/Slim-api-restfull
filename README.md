@@ -10,7 +10,7 @@ Para aproveitar ao máximo o repositório no quesito das statements desenvolvida
 ```sql
 CREATE DATABASE api;
 
-USE api;
+USER api;
 
 CREATE TABLE pessoa (
   pessoa_id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -19,5 +19,4 @@ CREATE TABLE pessoa (
   data_de_cadastro  DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
-INSERT INTO pessoa (nome, email) VALUES ('Gerley Adriano', 'gerleyadriano7@gmail.com');
-```
+INSERT INTO pessoa (nome, email) VALUES ('Pessoa teste', 'teste@gmail.com');
